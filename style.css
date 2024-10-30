@@ -50,3 +50,6 @@ nav {
    color: #8662c7;
    text-decoration: underline;
  }
+ header div {
+   margin: 100px 0 0 80px;
+ }
