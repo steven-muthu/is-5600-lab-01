@@ -119,3 +119,20 @@ header div a {
  .social .comment {
    background-image: url(./images/comment.png);
  }
+ main {
+   display: flex;              
+   flex-wrap: wrap;          
+   justify-content: space-between;  
+   gap: 10px;                  
+}
+
+.card {
+   flex: 0 1 calc(33.33% - 10px); 
+   margin: 2px 0;              
+   background-color: white;
+   display: flex;
+   flex-direction: column;       
+}
+
+
+ 
