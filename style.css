@@ -113,3 +113,18 @@ header div a {
  .social .comment {
    background-image: url(./images/comment.png);
  }
+ main {
+   display: flex;               /* Use Flexbox for layout */
+   flex-wrap: wrap;             /* Allow the cards to wrap to the next row if needed */
+   justify-content: space-between;  /* Distribute space evenly between cards */
+   gap: 10px;                   /* Control the gap between cards */
+ }
+ 
+ .card {
+   flex: 1 1 calc(33.33% - 20px); /* Make each card take up 1/3 of the row, minus some gap space */
+   margin: 10px 0;               /* Add vertical margin between rows */
+   background-color: white;
+   display: flex;
+   flex-direction: column;       /* Ensure card content stacks vertically */
+ }
+ 
